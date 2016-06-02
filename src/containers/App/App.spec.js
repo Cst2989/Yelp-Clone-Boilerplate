@@ -12,7 +12,7 @@ describe('<App />', function () {
   })
 
   it('has a single wrapper element here', () => {
-    expect(wrapper.find(`.${styles.wrapper}`))
+    expect(wrapper.find('Router'))
             .to.have.length(1);
   });
 });
